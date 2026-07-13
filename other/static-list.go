@@ -21,3 +21,10 @@ func CheckNationalID(nationalId string)bool{
 	}
 	return false
 }
+// CHECK AGE LENGHT FUNCTION 
+func CheckAgeLength(age uint)bool{
+	if age > 120 {
+		return false
+	}
+	return true
+}
