@@ -29,3 +29,10 @@ func MultiplyNumbers(numbers ...float64) float64{
 func PowerNumber(number  float64) float64{
 	return  number * number
 }
+// CHEKC EVEN NUMBER 
+func CheckEvenNumber(number int)bool{
+	if number%2==0{
+		return true
+	}
+	return false
+}
