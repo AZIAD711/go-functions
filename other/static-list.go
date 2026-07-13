@@ -7,11 +7,17 @@ func CheckGender(value string) bool {
 	}
 	return false
 }
-// CHEKCK PHONE NUMBER LENGTH FUNCTION 
+// CHECK PHONE NUMBER LENGTH FUNCTION 
 func CheckPhoneNumberLength(phoneNumber string)bool{
 	if len(phoneNumber)>11{
 		return  false
 	}
 	return true
 }
-// 
+// CHECK NATIONAL ID 
+func CheckNationalID(nationalId string)bool{
+	if len(nationalId)==14{
+		return true 
+	}
+	return false
+}
