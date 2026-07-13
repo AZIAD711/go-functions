@@ -5,3 +5,7 @@ import "time"
 func CalculateAge(year int) int {
 	return time.Now().Year() - year
 }
+// GENERATE CURRENT DATE 
+func generateCurrenYear()int{
+	return time.Now().Year()
+}
