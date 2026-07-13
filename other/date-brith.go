@@ -9,3 +9,7 @@ func CalculateAge(year int) int {
 func generateCurrenYear()int{
 	return time.Now().Year()
 }
+// GENERATE CURRENT DATE 
+func generateCurrenDay()int{
+	return time.Now().Day()
+}
