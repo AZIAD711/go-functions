@@ -18,3 +18,7 @@ func GeneratePasswordAsNumbers(length uint64) uint64 {
 	seed = (1664525*seed + 1013904223) % 4294967296
 	return (length*1000) + (seed % (length*9000))
 }
+// COUNT PASSWORD LENGHT FUNCTION 
+func PasswordLength(password string)int{
+return len(password)
+}
